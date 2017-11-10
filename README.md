@@ -40,5 +40,9 @@ Tche following rules are to be followed when makking any changes to the code.
 ```
 ```html
 <div class="classname">
+
+    <h1>Some content.</h1>
+    <p>Some more content.</p>
+    
 </div>      <!--end/classname-->
 ```
