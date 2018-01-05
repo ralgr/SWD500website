@@ -113,6 +113,24 @@ img {
 @media screen and (min-width: 1200px) {
   body {
     background: green; } }
+.logo {
+  height: auto;
+  width: 40%;
+  margin: 0 auto;
+  float: left; }
+
+.navigation {
+  height: auto;
+  width: 100%;
+  clear: left; }
+
+ul {
+  list-style: none;
+  float: right; }
+  ul li {
+    font-weight: bold;
+    font-size: 4em; }
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -506,9 +524,5 @@ template {
 
 body {
   font-family: Arial, sans-serif; }
-
-.logo {
-  height: 40%;
-  width: 40%; }
 
 /*# sourceMappingURL=main.css.map */

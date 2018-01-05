@@ -1,0 +1,19 @@
+.logo {
+    height: auto;
+    width: 40%;
+    margin: 0 auto;
+    float:left;
+}
+.navigation {
+    height: auto;
+    width: 100%;
+    clear: left;
+}
+ul {
+    list-style: none;
+    float:right;
+    li {
+        font-weight: bold;
+        font-size: 4em;
+    }
+}
