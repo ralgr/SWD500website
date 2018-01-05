@@ -1,0 +1,24 @@
+/*small devices, smartphones*/
+@media screen and (min-width: 480px){
+    body{
+        background:yellow;
+    }
+};
+/*medium devices, tablets*/
+@media screen and (min-width: 768px){
+        body{
+        background:red;
+    }
+};
+/*large devices, desktops*/
+@media screen and (min-width: 992px){
+        body{
+        background:blue;
+    }
+};
+/*very large devices, wide screen desktops*/
+@media screen and (min-width: 1200px){
+        body{
+        background:green;
+    }
+};

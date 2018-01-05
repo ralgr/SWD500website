@@ -8,7 +8,7 @@ It contains a responsive website that follows the mobile first approach for its 
 ## Coding standards.
 
 
-Tche following rules are to be followed when makking any changes to the code.
+The following rules are to be followed when making any changes to the code.
 1.	Indentations are made using tab.
 2.	Comment on any relevant code with their calculations or descriptions.
 3.	Comments will be written on full lowercase text only with 1 minimum indent between the code and the comment.
