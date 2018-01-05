@@ -1,0 +1,127 @@
+/*base*/
+* {
+    box-sizing: border-box;
+}
+
+[class*='col-']{
+    float: left;
+    padding-right: 10px;
+    min-height: 1px;
+}
+
+[class*='col-']:last-of-type {
+    padding-right: 0;
+}
+
+.wrapper {
+    width:100%;
+    display:table;
+}
+
+/*clearfix*/
+.row:before, row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*fluidimages*/
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto; 
+}
+
+/*columns*/
+.col-12 {
+    width:100%;
+}
+
+.col-1 {
+    margin-left: 8.333%;
+}
+
+.col-2 {
+    width: 16.666%;
+}
+
+.col-3 {
+    width: 24.99%;
+}
+
+.col-4 {
+    width: 33.32%;
+}
+
+.col-5 {
+    width: 41.656%;
+}
+
+.col-6 {
+    width: 49.98%;
+}
+
+.col-7 {
+    width: 58.31%;
+}
+
+.col-8 {
+    width: 66.64%;
+}
+
+.col-9 {
+    width: 74.97%;
+}
+
+.col-10 {
+    width: 83.3%;
+}
+
+.col-11 {
+    width: 91.63%;
+}
+
+/*offset*/
+.offset-1 {
+    margin-left: 8.333%;
+}
+
+.offset-2 {
+    margin-left: 16.666%;
+}
+
+.offset-3 {
+    margin-left: 24.99%;
+}
+
+.offset-4 {
+    margin-left: 33.32%;
+}
+
+.offset-5 {
+    margin-left: 41.656%;
+}
+
+.offset-6 {
+    margin-left: 49.98%;
+}
+
+.offset-7 {
+    margin-left: 58.31%;
+}
+
+.offset-8 {
+    margin-left: 66.64%;
+}
+
+.offset-9 {
+    margin-left: 74.97%;
+}
+
+.offset-10 {
+    margin-left: 83.3%;
+}
+
+.offset-11 {
+    margin-left: 91.63%;
+}
