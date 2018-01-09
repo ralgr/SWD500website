@@ -1,19 +1,71 @@
 .logo {
     height: auto;
-    width: 40%;
-    margin: 0 auto;
+    width: 15%;
     float:left;
+    margin: 1.5em;
 }
-.navigation {
-    height: auto;
-    width: 100%;
-    clear: left;
+
+a{
+    text-decoration: none;
+    color: black;
 }
-ul {
-    list-style: none;
-    float:right;
-    li {
-        font-weight: bold;
-        font-size: 4em;
-    }
-}
+a:visited {color: grey;}
+a:hover {}
+a:active {}
+a:visited {}
+
+@media screen and (min-width: 992px){
+        body{
+            background: whitesmoke;
+        }
+        
+        .content {
+            position: fixed;
+            min-height: 100%;
+            min-width: 100%;
+            background: silver;
+            .slideshow {
+                height: 30%;
+                width: 100%;
+            }
+        }
+        
+        .navigation {
+            width: 100%;
+            ul {
+                list-style: none;
+                float:left;
+                li {
+                    font-weight: bold;
+                    font-size: 2em;
+                    display: inline;
+                }
+            }       
+        }
+ 
+        
+        .footer {
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            background: white;
+            ul {
+                list-style: none;
+                li {
+                background: grey;
+                display: inline;
+                    img {
+                        height: 5em;
+                        width: 3em;
+                    }
+                }
+            }
+            p {
+                font-size: 0.7em;
+                color: grey;
+                font-weight: 300;
+                padding-left: 3.5em;
+            }
+        }
+        
+};

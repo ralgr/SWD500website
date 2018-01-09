@@ -26,8 +26,7 @@
 }
 
 /*fluidimages*/
-img {
-    width: auto;
+img, embed, object, video {
     max-width: 100%;
     height: auto; 
 }
@@ -125,3 +124,4 @@ img {
 .offset-11 {
     margin-left: 91.63%;
 }
+

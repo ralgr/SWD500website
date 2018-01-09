@@ -21,8 +21,7 @@
   display: table; }
 
 /*fluidimages*/
-img {
-  width: auto;
+img, embed, object, video {
   max-width: 100%;
   height: auto; }
 
@@ -115,22 +114,58 @@ img {
     background: green; } }
 .logo {
   height: auto;
-  width: 40%;
-  margin: 0 auto;
-  float: left; }
+  width: 15%;
+  float: left;
+  margin: 1.5em; }
 
-.navigation {
-  height: auto;
-  width: 100%;
-  clear: left; }
+a {
+  text-decoration: none;
+  color: black; }
 
-ul {
-  list-style: none;
-  float: right; }
-  ul li {
-    font-weight: bold;
-    font-size: 4em; }
+a:visited {
+  color: grey; }
 
+@media screen and (min-width: 992px) {
+  body {
+    background: whitesmoke; }
+
+  .content {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    background: silver; }
+    .content .slideshow {
+      height: 30%;
+      width: 100%; }
+
+  .navigation {
+    width: 100%; }
+    .navigation ul {
+      list-style: none;
+      float: left; }
+      .navigation ul li {
+        font-weight: bold;
+        font-size: 2em;
+        display: inline; }
+
+  .footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: white; }
+    .footer ul {
+      list-style: none; }
+      .footer ul li {
+        background: grey;
+        display: inline; }
+        .footer ul li img {
+          height: 5em;
+          width: 3em; }
+    .footer p {
+      font-size: 0.7em;
+      color: grey;
+      font-weight: 300;
+      padding-left: 3.5em; } }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
