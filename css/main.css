@@ -120,7 +120,8 @@ img, embed, object, video {
 
 a {
   text-decoration: none;
-  color: black; }
+  color: black;
+  font-size: 2em; }
 
 a:visited {
   color: grey; }
@@ -130,13 +131,10 @@ a:visited {
     background: whitesmoke; }
 
   .content {
-    position: fixed;
+    /*position: fixed;
     min-height: 100%;
     min-width: 100%;
-    background: silver; }
-    .content .slideshow {
-      height: 30%;
-      width: 100%; }
+    background: silver;*/ }
 
   .navigation {
     width: 100%; }
@@ -145,13 +143,12 @@ a:visited {
       float: left; }
       .navigation ul li {
         font-weight: bold;
-        font-size: 2em;
         display: inline; }
 
   .footer {
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    /*position: absolute;
+    bottom: 0;*/
     background: white; }
     .footer ul {
       list-style: none; }
@@ -159,8 +156,8 @@ a:visited {
         background: grey;
         display: inline; }
         .footer ul li img {
-          height: 5em;
-          width: 3em; }
+          height: 3.5em;
+          width: 3.5em; }
     .footer p {
       font-size: 0.7em;
       color: grey;
