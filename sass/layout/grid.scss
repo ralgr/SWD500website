@@ -19,21 +19,21 @@
 }
 
 /*clearfix*/
-.row:before, row:after {
+.row:before, .row:after {
     content: "";
     clear: both;
     display: table;
 }
 
 /*fluidimages*/
-img, embed, object, video {
+img {
     max-width: 100%;
     height: auto; 
 }
 
 /*columns*/
 .col-12 {
-    width:100%;
+    width: 100%;
 }
 
 .col-1 {
