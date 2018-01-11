@@ -63,9 +63,7 @@ li {
 }
 
 .navtrigger:checked ~ .navbar {
-    opacity: 1;
-    height: 100%;
-    transition: opacity 0.4s;
+    display: none;
 }
 
 .footnote {
@@ -77,8 +75,6 @@ li {
 .navbar {
     width: 100%;
     background: rgba(0,0,0,0.7);
-    opacity: 0;
-    height: 0;
     display: block;
 
         ul {
@@ -95,27 +91,6 @@ li {
         background: rgba(0,0,0,0.7);
 }
     
-#hero {
-    background-image: url("../img/pexels-photo-51415.jpeg");
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    p {
-        color: white;
-    }
-}
-
-#hero2 {
-    background-image: url("../img/pexels-photo-311458.jpeg");
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    p {
-        color: white;
-    }
-}
-
-
 .txtblock {
     background: white;
 }
@@ -133,6 +108,26 @@ li {
     }
     .tw{
         background: cyan;
+    }
+}
+
+#hero {
+    background-image: url("../img/pexels-photo-51415.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    p {
+        color: white;
+    }
+}
+
+#hero2 {
+    background-image: url("../img/pexels-photo-311458.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    p {
+        color: white;
     }
 }
 
