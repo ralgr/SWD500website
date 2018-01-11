@@ -10,3 +10,49 @@
         background: cyan;
     }
 }
+
+@media screen and (min-width: 768px){
+
+.footer {
+    ul{
+        width: 100%;
+        li{
+            display: inline-block;
+            width: 32.941%;
+            background: red;
+            margin: 0 auto;
+        }
+    }
+}
+
+};
+
+/*very large devices, wide screen desktops*/
+@media screen and (min-width: 1200px){
+
+.footer {
+    .fb{
+        background: white;
+    }
+    .in{
+        background: white;
+    }
+    .tw{
+        background: white;
+    }
+    
+    }
+    .fb:hover {
+        transition: background-color 0.7s ease-out;
+        background: lightblue;
+    }
+    .in:hover {
+        transition: background-color 0.7s ease-out;
+        background: darkblue;
+    }
+    .tw:hover {
+        transition: background-color 0.7s ease-out;
+        background: cyan;
+    }
+   
+};

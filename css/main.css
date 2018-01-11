@@ -96,18 +96,20 @@ img {
 .offset-11 {
   margin-left: 91.63%; }
 
-/*sitewide link properties*/
-a {
+a:link {
+  text-decoration: none; }
+
+a:visited {
+  color: black; }
+
+/*default link properties*/
+.linkformat {
   text-align: center;
   font-weight: bold;
   display: block;
   font-size: 2em;
   width: 100%;
-  background: white;
-  text-decoration: none; }
-
-a:visited {
-  color: black; }
+  background: white; }
 
 /*sitewide list properties*/
 ul {
@@ -118,6 +120,7 @@ ul {
 li {
   list-style: none; }
 
+/*logo properties*/
 .logo {
   background: white;
   height: 100%;
@@ -134,78 +137,66 @@ li {
 /*navigation bar styling and exclusive properties*/
 .navbar {
   width: 100%;
-  background: rgba(0, 0, 0, 0.7);
   display: block; }
-  .navbar ul {
+  .navbar .dropstyle {
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 2em;
     width: 100%;
-    margin: 0 auto; }
+    background: rgba(0, 0, 0, 0.6); }
+  .navbar ul {
+    margin: 100%;
+    margin: 0 auto;
+    text-align: center; }
     .navbar ul li {
       border-bottom: 1px solid grey; }
 
-/*
-@media screen and (min-width: 992px){
-        .logo {
-            width: 20%;
-            float: left;
-        }
-        
-        .navigation {
-            background: white;
-            ul {
-                list-style: none;
-                width: 68%;
-                float: left;
-                li {
-                    font-weight: bold;
-                    display: inline;
-                    font-size: 3em;
-                    margin-right: 1em;
-                }
-                li:last-of-type {
-                    margin-right: 0;
-                }
-            }       
-        }
-        
-        #hero {
-            background-image: url("../img/pexels-photo-51415.jpeg");
-            background-position: center center;
-            background-attachment: fixed;
-            background-size: cover;
-            .inner{
-              background: rgba(0,0,0,0.7);
-              .content {
-                  text-align: center;
-                  font-weight: 700;
-                  font-size: 6em;
-                  p {
-                      color: white;
-                  }
-              }
-            }
-        }
-        
-        .footer {
-            width: 100%;
-            ul {
-                list-style: none;
-                li {
-                    display: inline;
-                    img {
-                        height: 4em;
-                        width: 5em;
-                    }
-                }
-            }
-            p {
-                font-size: 0.7em;
-                color: grey;
-                font-weight: 300;
-                margin-left: 3em;
-            }
-        }
-        
-};*/
+/*very large devices, wide screen desktops*/
+@media screen and (min-width: 1200px) {
+  a:link {
+    text-decoration: none;
+    color: black; }
+
+  a:visited {
+    color: black; }
+
+  .linkformat {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    font-size: 2em;
+    width: 100%;
+    background: white;
+    text-decoration: none; }
+
+  .logo {
+    background: white;
+    height: 20%;
+    width: 20%;
+    margin-top: 1em;
+    float: left; }
+
+  /*dropdown menu button styling*/
+  .navbutton {
+    width: 2em;
+    height: 2em;
+    display: none;
+    margin: 0 auto; }
+
+  .navbar .dropstyle {
+    background: transparent; }
+
+  .navbar {
+    margin-top: 1em;
+    width: 60%;
+    float: left; }
+    .navbar ul {
+      width: 100%; }
+      .navbar ul li {
+        width: 16.66666666667%;
+        border-bottom: none;
+        display: inline; } }
 /*content properties*/
 .content {
   text-align: center;
@@ -216,11 +207,29 @@ li {
   height: 100%;
   display: table; }
 
+.justify {
+  text-align: justify; }
+
 /*defines how much of hero image is seen and darkening level*/
 .inner {
   min-height: 13em;
   background: rgba(0, 0, 0, 0.7); }
 
+/*very large devices, wide screen desktops*/
+@media screen and (min-width: 1200px) {
+  /*content properties*/
+  .content {
+    text-align: center;
+    line-height: 0.5em;
+    font-weight: bold;
+    font-size: 15em;
+    width: 100%;
+    height: 100%;
+    display: table; }
+
+  .inner {
+    min-height: 35em;
+    background: rgba(0, 0, 0, 0.7); } }
 /*footer styling*/
 .footer .fb {
   background: lightblue; }
@@ -228,6 +237,91 @@ li {
   background: darkblue; }
 .footer .tw {
   background: cyan; }
+
+@media screen and (min-width: 768px) {
+  .footer ul {
+    width: 100%; }
+    .footer ul li {
+      display: inline-block;
+      width: 32.941%;
+      background: red;
+      margin: 0 auto; } }
+/*very large devices, wide screen desktops*/
+@media screen and (min-width: 1200px) {
+  .footer .fb {
+    background: white; }
+  .footer .in {
+    background: white; }
+  .footer .tw {
+    background: white; }
+
+  .fb:hover {
+    transition: background-color 0.7s ease-out;
+    background: lightblue; }
+
+  .in:hover {
+    transition: background-color 0.7s ease-out;
+    background: darkblue; }
+
+  .tw:hover {
+    transition: background-color 0.7s ease-out;
+    background: cyan; } }
+.form-style-6 {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 0.7em auto;
+  padding: 1em;
+  background: transparent; }
+
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 4%;
+  border: 0.0625em solid grey;
+  padding: 3%;
+  color: grey; }
+
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus {
+  box-shadow: 0 0 0.3em green;
+  padding: 3%;
+  border: 1px solid green; }
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"] {
+  width: 100%;
+  padding: 3%;
+  background: darkgreen;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: white; }
+
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover {
+  cursor: pointer; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -644,6 +738,9 @@ body {
 .fontwhite {
   color: white; }
 
+.fontblack {
+  color: black; }
+
 /*hero images*/
 /*green backlit keyboard*/
 #hero {
@@ -655,6 +752,19 @@ body {
 /*multicoloured cacti*/
 #hero2 {
   background-image: url("../img/pexels-photo-311458.jpeg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/*ffxiv*/
+#hero3 {
+  background-image: url("../img/ffxiv_03122017_190610.png");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+#hero4 {
+  background-image: url("../img/ffxiv_20072017_010349.png");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover; }

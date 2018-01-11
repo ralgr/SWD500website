@@ -9,8 +9,33 @@
     display: table;
 }
 
+.justify {
+    text-align: justify;
+}
+
 /*defines how much of hero image is seen and darkening level*/
 .inner{
         min-height: 13em;
         background: rgba(0,0,0,0.7);
 }
+
+/*very large devices, wide screen desktops*/
+@media screen and (min-width: 1200px){
+
+/*content properties*/
+.content {
+    text-align: center;
+    line-height: 0.5em; 
+    font-weight: bold;
+    font-size: 15em;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.inner{
+        min-height: 35em;
+        background: rgba(0,0,0,0.7);
+}
+
+};
