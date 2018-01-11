@@ -1,0 +1,16 @@
+/*content properties*/
+.content {
+    text-align: center;
+    line-height: 0.5em; 
+    font-weight: bold;
+    font-size: 3.5em;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+/*defines how much of hero image is seen and darkening level*/
+.inner{
+        min-height: 13em;
+        background: rgba(0,0,0,0.7);
+}

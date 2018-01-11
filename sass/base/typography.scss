@@ -1,3 +1,28 @@
 body{
     font-family: Arial, sans-serif;
 }
+
+/*text styling classes*/
+.hometxt {
+    font-weight: 500;
+    font-size: 0.4em;
+    line-height: 0.1em;
+}
+.emphasize {
+    font-weight: bold;
+    color: green;
+}
+
+.footnote {
+    text-align: center;
+    color: grey;
+    font-size: 0.7em;
+}
+
+.txtblock {
+    background: white;
+}
+
+.fontwhite {
+    color: white;
+}

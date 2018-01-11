@@ -1,3 +1,4 @@
+/*sitewide link properties*/
 a {
     text-align: center;
     font-weight: bold;
@@ -13,6 +14,7 @@ a:hover {}
 a:active {}
 a:visited {}
 
+/*sitewide list properties*/
 ul {
     overflow: hidden;
     margin: 0;
@@ -30,26 +32,7 @@ li {
     margin-top: 1em;
 }
 
-.content {
-    text-align: center;
-    line-height: 0.5em; 
-    font-weight: bold;
-    font-size: 3.5em;
-    width: 100%;
-    height: 100%;
-    display: table;
-}
-
-.hometxt {
-    font-weight: 500;
-    font-size: 0.4em;
-    line-height: 0.1em;
-}
-.emphasize {
-    font-weight: bold;
-    color: green;
-}
-
+/*dropdown menu button styling*/
 .navbutton {
     width: 2em;
     height: 2em;
@@ -57,21 +40,7 @@ li {
     margin: 0 auto;
 }
 
-.navtrigger {
-    position: absolute;
-    clip: rect(0, 0, 0, 0);
-}
-
-.navtrigger:checked ~ .navbar {
-    display: none;
-}
-
-.footnote {
-    text-align: center;
-    color: grey;
-    font-size: 0.7em;
-}
-
+/*navigation bar styling and exclusive properties*/
 .navbar {
     width: 100%;
     background: rgba(0,0,0,0.7);
@@ -86,51 +55,6 @@ li {
         }
 }
   
-.inner{
-        min-height: 13em;
-        background: rgba(0,0,0,0.7);
-}
-    
-.txtblock {
-    background: white;
-}
-
-.fontwhite {
-    color: white;
-}
-
-.footer {
-    .fb{
-        background: lightblue;
-    }
-    .in{
-        background: darkblue;
-    }
-    .tw{
-        background: cyan;
-    }
-}
-
-#hero {
-    background-image: url("../img/pexels-photo-51415.jpeg");
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    p {
-        color: white;
-    }
-}
-
-#hero2 {
-    background-image: url("../img/pexels-photo-311458.jpeg");
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    p {
-        color: white;
-    }
-}
-
 @media screen and (min-width: 768px){
  
 };

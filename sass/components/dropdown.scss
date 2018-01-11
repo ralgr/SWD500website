@@ -1,0 +1,9 @@
+/*dropdown menu properties*/
+.navtrigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.navtrigger:checked ~ .navbar {
+    display: none;
+}

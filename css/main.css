@@ -96,6 +96,7 @@ img {
 .offset-11 {
   margin-left: 91.63%; }
 
+/*sitewide link properties*/
 a {
   text-align: center;
   font-weight: bold;
@@ -108,6 +109,7 @@ a {
 a:visited {
   color: black; }
 
+/*sitewide list properties*/
 ul {
   overflow: hidden;
   margin: 0;
@@ -122,42 +124,14 @@ li {
   width: 100%;
   margin-top: 1em; }
 
-.content {
-  text-align: center;
-  line-height: 0.5em;
-  font-weight: bold;
-  font-size: 3.5em;
-  width: 100%;
-  height: 100%;
-  display: table; }
-
-.hometxt {
-  font-weight: 500;
-  font-size: 0.4em;
-  line-height: 0.1em; }
-
-.emphasize {
-  font-weight: bold;
-  color: green; }
-
+/*dropdown menu button styling*/
 .navbutton {
   width: 2em;
   height: 2em;
   display: block;
   margin: 0 auto; }
 
-.navtrigger {
-  position: absolute;
-  clip: rect(0, 0, 0, 0); }
-
-.navtrigger:checked ~ .navbar {
-  display: none; }
-
-.footnote {
-  text-align: center;
-  color: grey;
-  font-size: 0.7em; }
-
+/*navigation bar styling and exclusive properties*/
 .navbar {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -167,39 +141,6 @@ li {
     margin: 0 auto; }
     .navbar ul li {
       border-bottom: 1px solid grey; }
-
-.inner {
-  min-height: 13em;
-  background: rgba(0, 0, 0, 0.7); }
-
-.txtblock {
-  background: white; }
-
-.fontwhite {
-  color: white; }
-
-.footer .fb {
-  background: lightblue; }
-.footer .in {
-  background: darkblue; }
-.footer .tw {
-  background: cyan; }
-
-#hero {
-  background-image: url("../img/pexels-photo-51415.jpeg");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover; }
-  #hero p {
-    color: white; }
-
-#hero2 {
-  background-image: url("../img/pexels-photo-311458.jpeg");
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover; }
-  #hero2 p {
-    color: white; }
 
 /*
 @media screen and (min-width: 992px){
@@ -265,6 +206,29 @@ li {
         }
         
 };*/
+/*content properties*/
+.content {
+  text-align: center;
+  line-height: 0.5em;
+  font-weight: bold;
+  font-size: 3.5em;
+  width: 100%;
+  height: 100%;
+  display: table; }
+
+/*defines how much of hero image is seen and darkening level*/
+.inner {
+  min-height: 13em;
+  background: rgba(0, 0, 0, 0.7); }
+
+/*footer styling*/
+.footer .fb {
+  background: lightblue; }
+.footer .in {
+  background: darkblue; }
+.footer .tw {
+  background: cyan; }
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -658,5 +622,49 @@ template {
 
 body {
   font-family: Arial, sans-serif; }
+
+/*text styling classes*/
+.hometxt {
+  font-weight: 500;
+  font-size: 0.4em;
+  line-height: 0.1em; }
+
+.emphasize {
+  font-weight: bold;
+  color: green; }
+
+.footnote {
+  text-align: center;
+  color: grey;
+  font-size: 0.7em; }
+
+.txtblock {
+  background: white; }
+
+.fontwhite {
+  color: white; }
+
+/*hero images*/
+/*green backlit keyboard*/
+#hero {
+  background-image: url("../img/pexels-photo-51415.jpeg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/*multicoloured cacti*/
+#hero2 {
+  background-image: url("../img/pexels-photo-311458.jpeg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/*dropdown menu properties*/
+.navtrigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0); }
+
+.navtrigger:checked ~ .navbar {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
