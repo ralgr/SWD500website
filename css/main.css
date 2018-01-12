@@ -159,7 +159,7 @@ li {
 /*very large devices, wide screen desktops*/
 @media screen and (min-width: 1200px) {
   .navbar {
-    display: block; }
+    display: block !important; }
 
   a:link {
     text-decoration: none;
