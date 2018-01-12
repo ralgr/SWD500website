@@ -5,6 +5,11 @@ This website is project for the SWD500 subject.
 
 It contains a responsive website that follows the mobile first approach for its design.
 
+## Live website and GitHub url.
+
+
+1.	Website: 
+2.	GitHub: https://github.com/ralgr.
 ## Coding standards.
 
 
@@ -16,6 +21,16 @@ The following rules are to be followed when making any changes to the code.
 5.	Every closing div tag will contain a comment that includes the class or id name of the tag.
 6.	Every relative units such as percentages or em on the code will contain comments on how the numbers were obtained.
 7.	Use empty lines to further make code groupings clear.
+
+## Branching strategy.
+
+
+1.	Create a branch.
+2.	Code and test.
+3.	Merge if the branch is stable.
+4.	Delete test branch.
+5.	Repeat for every new addition to preserve a stable copy.
+
 
 ## Examples.
 
