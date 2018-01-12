@@ -102,6 +102,11 @@ a:link {
 a:visited {
   color: black; }
 
+a:hover {
+  transition: background-color 0.7s ease-out;
+  color: white;
+  background: darkgreen; }
+
 /*default link properties*/
 .linkformat {
   text-align: center;
@@ -154,6 +159,9 @@ li {
 
 /*very large devices, wide screen desktops*/
 @media screen and (min-width: 1200px) {
+  .navbar {
+    display: block; }
+
   a:link {
     text-decoration: none;
     color: black; }
@@ -258,14 +266,21 @@ li {
   .fb:hover {
     transition: background-color 0.7s ease-out;
     background: lightblue; }
+    .fb:hover a {
+      background: none; }
 
   .in:hover {
     transition: background-color 0.7s ease-out;
     background: darkblue; }
+    .in:hover a {
+      background: none; }
 
   .tw:hover {
     transition: background-color 0.7s ease-out;
-    background: cyan; } }
+    background: cyan; }
+    .tw:hover a {
+      background: none; } }
+/*form styling taken from https://www.sanwebe.com/2014/08/css-html-forms-designs*/
 .form-style-6 {
   font: 95% Arial, Helvetica, sans-serif;
   max-width: 400px;

@@ -56,9 +56,9 @@
                         
                         <div class="form-style-6">
                             <form>
-                                <input type="text" name="field1" placeholder="your name." />
-                                <input type="email" name="field2" placeholder="email address." />
-                                <textarea name="field3" placeholder="your message."></textarea>
+                                <input type="text" name="name" placeholder="your name." />
+                                <input name="email" v-model="email" v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }" type="text" placeholder="email" />
+                                <textarea name="txt" placeholder="your message."></textarea>
                                 <input type="submit" value="send" />
                             </form>
                         </div>
@@ -103,4 +103,8 @@
         
 </div><!--end/wrapper-->
 </body>
+
+
+<script src="node_modules/vue/dist/vue.js"></script>
+<script src="js/main.js"></script>
 </html>

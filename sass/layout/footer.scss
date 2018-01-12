@@ -30,6 +30,7 @@
 /*very large devices, wide screen desktops*/
 @media screen and (min-width: 1200px){
 
+
 .footer {
     .fb{
         background: white;
@@ -43,14 +44,23 @@
     
     }
     .fb:hover {
+        a {
+            background: none;
+        }
         transition: background-color 0.7s ease-out;
         background: lightblue;
     }
     .in:hover {
+        a {
+            background: none;
+        }
         transition: background-color 0.7s ease-out;
         background: darkblue;
     }
     .tw:hover {
+        a {
+            background: none;
+        }
         transition: background-color 0.7s ease-out;
         background: cyan;
     }

@@ -2,9 +2,12 @@ a:link {
     text-decoration: none;
 }
 a:visited {color: black;}
-a:hover {}
-a:active {}
-a:visited {}
+a:hover {
+    transition: background-color 0.7s ease-out;
+    color: white;
+    background: darkgreen;
+}
+
 
 /*default link properties*/
 .linkformat{
@@ -69,8 +72,11 @@ li {
 
 /*very large devices, wide screen desktops*/
 @media screen and (min-width: 1200px){
- 
- a:link {
+.navbar {
+    display: block;
+}
+
+a:link {
     text-decoration: none;
     color: black;
 }
