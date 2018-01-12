@@ -8,7 +8,7 @@ It contains a responsive website that follows the mobile first approach for its 
 ## Live website and GitHub url.
 
 
-1.	Website: 
+1.	Website: https://ralgr.github.io/SWD500website/home.html. 
 2.	GitHub: https://github.com/ralgr.
 ## Coding standards.
 
